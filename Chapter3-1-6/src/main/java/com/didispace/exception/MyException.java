@@ -8,7 +8,12 @@ package com.didispace.exception;
  */
 public class MyException extends Exception {
 
-    public MyException(String message) {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -6002740027120017635L;
+
+	public MyException(String message) {
         super(message);
     }
 
